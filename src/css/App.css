@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "Overpass";
+  src: url(../assets/font/Overpass-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #131518;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  background: linear-gradient(#232A34, #181E27);
+  border-radius: 3rem;
+  width: clamp(39rem, 87.2vw, 41.2rem);
+}
+@media screen and (max-width: 450px) {
+  .mainContainer {
+    border-radius: 1.5rem;
+    width: clamp(30rem, 87.2vw, 40rem);
+  }
+}
+
+.mainFormContainer {
+  padding: 3.2rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3.2rem 0;
+}
+@media screen and (max-width: 450px) {
+  .mainFormContainer {
+    padding: 2.4rem;
+    gap: 2.4rem 0;
+  }
+}
+
+.iconContainer {
+  background-color: #262E38;
+  border-radius: 100rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4.8rem;
+  height: 4.8rem;
+}
+.iconContainer img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+@media screen and (max-width: 450px) {
+  .iconContainer {
+    width: 4rem;
+    height: 4rem;
+  }
+  .iconContainer img {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.6rem 0;
+}
+
+.title {
+  color: #FFFFFF;
+  font-family: "Overpass";
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: 0;
+}
+
+.description {
+  color: #969FAD;
+  font-family: "Overpass";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  letter-spacing: 0;
+}
+
+.ratingContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0 2.4rem;
+}
+@media screen and (max-width: 450px) {
+  .ratingContainer {
+    gap: 0 1.6rem;
+  }
+}
+
+.btn {
+  width: 5.1rem;
+  height: 5.1rem;
+  background-color: #262E38;
+  border: none;
+  border-radius: 100rem;
+  color: #969FAD;
+  font-family: "Overpass";
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: 0.02rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 450px) {
+  .btn {
+    width: 4.2rem;
+    height: 4.2rem;
+    font-family: "Overpass";
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    letter-spacing: 0.187rem;
+  }
+}
+.btn:hover {
+  background-color: #FFFFFF;
+  color: #262E38;
+}
+.btn.active {
+  background-color: #FC7614;
+  color: #262E38;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 1.6rem 0;
+  border: none;
+  border-radius: 2.25rem;
+  color: #131518;
+  text-transform: uppercase;
+  font-family: "Overpass";
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  letter-spacing: 0.187rem;
+  background-color: #FC7614;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.submitBtn.active {
+  background-color: #FFFFFF;
+  color: #262E38;
+}
+
+.thanksFormContainer {
+  padding: 4rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.2rem 0;
+}
+@media screen and (max-width: 450px) {
+  .thanksFormContainer {
+    padding: 3.2rem 2.4rem;
+    gap: 2.4rem 0;
+  }
+}
+
+.ratingResult {
+  padding: 1rem 1.6rem;
+  background-color: #262E38;
+  border-radius: 2.25rem;
+}
+.ratingResult p {
+  color: #FC7614;
+  font-family: "Overpass";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  letter-spacing: 0;
+}
+
+.messageContainer {
+  text-align: center;
+}
+
+/*# sourceMappingURL=App.css.map */

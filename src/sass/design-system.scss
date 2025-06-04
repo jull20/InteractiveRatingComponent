@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Overpass";
+    src: url(../assets/font/Overpass-VariableFont_wght.ttf);
+}
+
+$white: #FFFFFF;
+$black: #000000;
+$grey-500: #969FAD;
+$grey-900: #262E38;
+$grey-950: #131518;
+$orange: #FC7614;
+$gradient: linear-gradient(#232A34, #181E27);
+
+@mixin text-preset-1{
+    font-family:    "Overpass";
+    font-size:      2.8rem;
+    font-weight:    700;
+    line-height:    3.5rem;
+    letter-spacing: 0;
+}
+@mixin text-preset-2{
+    font-family:    "Overpass";
+    font-size:      2.4rem;
+    font-weight:    700;
+    line-height:    3rem;
+    letter-spacing: 0;
+}
+@mixin text-preset-3{
+    font-family:    "Overpass";
+    font-size:      1.6rem;
+    font-weight:    700;
+    line-height:    2.4rem;
+    letter-spacing: .02rem;
+}
+@mixin text-preset-4($weight){
+    font-family:    "Overpass";
+    font-size:      1.5rem;
+    font-weight:    $weight;
+    @if($weight == "bold"){    
+        line-height: 1.9rem; 
+        letter-spacing: .2rem;
+    }
+    @if($weight == "regular"){ 
+        line-height: 2.4rem; 
+        letter-spacing: 0;
+    }
+}
+@mixin text-preset-5($weight){
+    font-family:    "Overpass";
+    font-size:      1.4rem;
+    @if($weight == "bold"){    
+        font-weight:  700;
+        line-height: 1.8rem; 
+        letter-spacing: .187rem;
+    }
+    @if($weight == "semibold"){ 
+        font-weight:  600;
+        line-height: 2.4rem; 
+        letter-spacing: .017rem;
+    }
+    @if($weight == "regular"){ 
+        font-weight:  400;
+        line-height: 2.2rem; 
+        letter-spacing: 0;
+    }
+}
+@mixin flex($direction, $main-axis, $cross-axis){
+    display:         flex;
+    flex-direction:  $direction;
+    justify-content: $main-axis;
+    align-items:     $cross-axis;
+}

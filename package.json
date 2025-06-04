@@ -1,7 +1,6 @@
 {
   "name": "7_interactive-rating-component",
   "version": "0.1.0",
-  "homepage": "git@github.com:jull20/InteractiveRatingComponent.git",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

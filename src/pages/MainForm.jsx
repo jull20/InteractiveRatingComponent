@@ -5,8 +5,10 @@ export default function MainForm({onSelectBtn}){
     const [isActive, setActive] = useState(0);
     const navigate = useNavigate();
     let submitClick = () => {
-        onSelectBtn(isActive);
-        navigate('thanks', { replace: true });
+       if(isActive !== 0){
+            onSelectBtn(isActive);
+            navigate('thanks', { replace: true });
+        }
     }
     return(
         <div className="mainFormContainer">

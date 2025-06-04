@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/jull20/InteractiveRatingComponent.git/static/css/main.953fc0ef.css",
-    "main.js": "/jull20/InteractiveRatingComponent.git/static/js/main.a38da199.js",
-    "static/js/453.216dcbfd.chunk.js": "/jull20/InteractiveRatingComponent.git/static/js/453.216dcbfd.chunk.js",
-    "static/media/Overpass-VariableFont_wght.ttf": "/jull20/InteractiveRatingComponent.git/static/media/Overpass-VariableFont_wght.cd646d18e0a35268c576.ttf",
-    "static/media/logo.svg": "/jull20/InteractiveRatingComponent.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/jull20/InteractiveRatingComponent.git/index.html",
-    "main.953fc0ef.css.map": "/jull20/InteractiveRatingComponent.git/static/css/main.953fc0ef.css.map",
-    "main.a38da199.js.map": "/jull20/InteractiveRatingComponent.git/static/js/main.a38da199.js.map",
-    "453.216dcbfd.chunk.js.map": "/jull20/InteractiveRatingComponent.git/static/js/453.216dcbfd.chunk.js.map"
+    "main.css": "/InteractiveRatingComponent/static/css/main.43ae7e25.css",
+    "main.js": "/InteractiveRatingComponent/static/js/main.fa2ffb9b.js",
+    "static/js/453.216dcbfd.chunk.js": "/InteractiveRatingComponent/static/js/453.216dcbfd.chunk.js",
+    "static/media/Overpass-VariableFont_wght.ttf": "/InteractiveRatingComponent/static/media/Overpass-VariableFont_wght.cd646d18e0a35268c576.ttf",
+    "static/media/logo.svg": "/InteractiveRatingComponent/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/InteractiveRatingComponent/index.html",
+    "main.43ae7e25.css.map": "/InteractiveRatingComponent/static/css/main.43ae7e25.css.map",
+    "main.fa2ffb9b.js.map": "/InteractiveRatingComponent/static/js/main.fa2ffb9b.js.map",
+    "453.216dcbfd.chunk.js.map": "/InteractiveRatingComponent/static/js/453.216dcbfd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.953fc0ef.css",
-    "static/js/main.a38da199.js"
+    "static/css/main.43ae7e25.css",
+    "static/js/main.fa2ffb9b.js"
   ]
 }
